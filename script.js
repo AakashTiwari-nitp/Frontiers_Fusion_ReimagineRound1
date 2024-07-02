@@ -189,14 +189,18 @@ document.addEventListener("DOMContentLoaded", function () {
   let autoSlide = setInterval(nextSlide, slideInterval);
 
   // Pause auto sliding when mouse is over the slider
-  document.querySelector(".js-slider").addEventListener("mouseenter", function () {
-    clearInterval(autoSlide);
-  });
+  document
+    .querySelector(".js-slider")
+    .addEventListener("mouseenter", function () {
+      clearInterval(autoSlide);
+    });
 
   // Resume auto sliding when mouse leaves the slider
-  document.querySelector(".js-slider").addEventListener("mouseleave", function () {
-    autoSlide = setInterval(nextSlide, slideInterval);
-  });
+  document
+    .querySelector(".js-slider")
+    .addEventListener("mouseleave", function () {
+      autoSlide = setInterval(nextSlide, slideInterval);
+    });
 
   // Add keyboard navigation
   document.addEventListener("keydown", function (event) {
@@ -211,7 +215,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-
 
 // Video Animation
 function videoAnimation() {
@@ -301,7 +304,11 @@ function heroSliderAnimation() {
       "./content/support.png",
       "./content/dellOffer.png",
     ];
-    const overH1text = ["The Ultimate <br> Gaming Powerhouse","Dell Support","Dell Offers"];
+    const overH1text = [
+      "The Ultimate <br> Gaming Powerhouse",
+      "Dell Support",
+      "Dell Offers",
+    ];
     let currentSlide = 0;
     const heroImg = document.getElementById("hero-img");
     const leftArrow = document.getElementById("l");
@@ -311,7 +318,7 @@ function heroSliderAnimation() {
     function updateSlide() {
       heroImg.style.backgroundImage = `url(${slides[currentSlide]})`;
       slideNumber.textContent = `0${currentSlide + 1}`;
-      overH1.innerHTML=`${overH1text[currentSlide]}`;
+      overH1.innerHTML = `${overH1text[currentSlide]}`;
     }
 
     leftArrow.addEventListener("click", function () {
