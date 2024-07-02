@@ -304,36 +304,41 @@ function footerAnimation() {
 footerAnimation();
 
 // Hero page image slider
-document.addEventListener('DOMContentLoaded', function() {
-    const slides = ["./content/alienware.png","./content/support.png","./content/ai.png"];
-    let currentSlide = 0;  
-    const heroImg = document.getElementById('hero-img');
-    const leftArrow = document.getElementById('l');
-    const rightArrow = document.getElementById('r');
-    const slideNumber = document.querySelector('#over1 h2');
-
-    
+function heroSliderAnimation() {
+  document.addEventListener("DOMContentLoaded", function () {
+    const slides = [
+      "./content/alienware.png",
+      "./content/support.png",
+      "./content/dellOffer.png",
+    ];
+    const overH1text = ["The Ultimate <br> Gaming Powerhouse","Dell Support","Dell Offers"];
+    let currentSlide = 0;
+    const heroImg = document.getElementById("hero-img");
+    const leftArrow = document.getElementById("l");
+    const rightArrow = document.getElementById("r");
+    const slideNumber = document.querySelector("#over1 h2");
+    const overH1 = document.querySelector("#over1 h1");
     function updateSlide() {
       heroImg.style.backgroundImage = `url(${slides[currentSlide]})`;
       slideNumber.textContent = `0${currentSlide + 1}`;
+      overH1.innerHTML=`${overH1text[currentSlide]}`;
     }
 
-   
-    leftArrow.addEventListener('click', function() {
+    leftArrow.addEventListener("click", function () {
       currentSlide = (currentSlide - 1 + slides.length) % slides.length;
       updateSlide();
     });
 
-    rightArrow.addEventListener('click', function() {
+    rightArrow.addEventListener("click", function () {
       currentSlide = (currentSlide + 1) % slides.length;
       updateSlide();
     });
-     // Automatic slide change every 5 seconds
-     setInterval(function() {
+    // Automatic slide change every 5 seconds
+    setInterval(function () {
       currentSlide = (currentSlide + 1) % slides.length;
       updateSlide();
     }, 5000);
-
-   
     updateSlide();
   });
+}
+heroSliderAnimation();
