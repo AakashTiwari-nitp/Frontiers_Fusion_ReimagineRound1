@@ -95,7 +95,7 @@ body {
   margin-bottom: 2vw;
   height: 52vw;
   width: 100%;
-  background-color: #111;
+  /* background-color: #d49999; */
 }
 /* nav2 */
 .menu {
@@ -240,6 +240,7 @@ a {
   height: 56px;
   background-color: #fff;
   padding: 1px 50px 1px 20px;
+  overflow-x: hidden;
 }
 
 #nleft {
@@ -546,7 +547,7 @@ a {
   display: flex;
   flex-direction: column;
   bottom: 0;
-  /* background-color: red; */
+  /* background-color: rgba(255, 0, 0, 0.361); */
   padding: 0 3vw;
   /* background-color: rgba(0, 0, 0, 0.154);
   backdrop-filter: blur(4px); */
@@ -571,6 +572,7 @@ a {
 }
 #over1 {
   margin-bottom: 2vw;
+  /* background-color: blue; */
 }
 #over1 h1 {
   font-size: 3.5vw;
@@ -590,6 +592,7 @@ a {
 #over2 {
   border-top: 2px solid white;
   padding: 1vw 0;
+  /* background-color: yellow; */
 }
 #over2 h2 {
   font-size: 1.3vw;
@@ -628,9 +631,81 @@ a {
   }
   #over2{
     padding: 0.5vw;
+    margin-bottom: 2vw;
+  }
+  #over2 h2 {
+    font-size: 2.5vw;
   }
 }
-
+@media screen and (max-width: 480px){
+  #hero-img{
+    height: 60vw;
+    width: 90%;
+  }
+  #hero {
+    /* background-color: rgb(44, 56, 60); */
+    height: 65vw;
+    min-height: 38vh;
+  }
+  #page1{
+    height: 85vw;
+    min-height: 50vh;
+  }
+  #overlay{
+    height: 60vw;
+    min-height: 40vh;
+    margin-bottom: 2vw;
+  }
+  #over1 h1 {
+    font-size: 3.5vw;
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    /* mix-blend-mode: difference; */
+  }
+  #over1 h2 {
+    font-size: 1vw;
+    padding: 2vw 2.2vw;
+    /* background-color: blue; */
+    border-radius: 50%;
+    border: 1px solid #fff;
+    mix-blend-mode: difference;
+    /* border-bottom: 3px solid #fff; */
+  }
+  #over2 {
+    border-top: 2px solid white;
+    padding: 1vw 0;
+  }
+  #over2 h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    /* color: #000; */
+  }
+}
+@media screen and (max-width: 450px){
+  #overlay{
+    height: 60vw;
+    min-height: 35vh;
+    margin-bottom: 2vw;
+  }
+  #over1 h1 {
+    font-size: 1.25rem;
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    /* mix-blend-mode: difference; */
+  }
+  #over1 h2 {
+    font-size: 1rem;
+    padding: 2vw 2.2vw;
+    /* background-color: blue; */
+    border-radius: 50%;
+    border: 1px solid #fff;
+    mix-blend-mode: difference;
+    /* border-bottom: 3px solid #fff; */
+  }
+  #over2 h2 {
+    font-size: 0.9rem;
+  }
+}
 
 /* Page 2 Accesories Section */
 #page2 {
