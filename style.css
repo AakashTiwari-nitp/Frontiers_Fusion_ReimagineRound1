@@ -552,11 +552,20 @@ a {
   /* background-color: rgba(0, 0, 0, 0.154);
   backdrop-filter: blur(4px); */
 }
-#f1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+#hero-slide{
+  width: 90%;
+  position: absolute;
   color: #fff;
+  top: 40%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+#hero-slide h2{
+  font-size: 1rem;
+  padding: 2vw;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
 #over {
   width: 90%;
@@ -575,13 +584,13 @@ a {
   /* background-color: blue; */
 }
 #over1 h1 {
-  font-size: 3.5vw;
+  font-size: 3rem;
   font-family: "Helvetica Neue";
   font-weight: 300;
   /* mix-blend-mode: difference; */
 }
 #over1 h2 {
-  font-size: 1vw;
+  font-size: 1rem;
   padding: 2vw 2.2vw;
   /* background-color: blue; */
   border-radius: 50%;
