@@ -609,6 +609,27 @@ a {
     padding: 0.5vw;
   }
 }
+@media screen and (max-width: 700px) {
+  #hero {
+    height: 70vw;
+    min-height: 60vh;
+  }
+  #page1{
+    height: 80vw;
+    min-height: 70vh;
+  }
+  #hero-img {
+    height: 80%;
+    width: 90%;
+    left: 45%;
+  }
+  #over1 {
+    margin-bottom: 1vw;
+  }
+  #over2{
+    padding: 0.5vw;
+  }
+}
 
 
 /* Page 2 Accesories Section */
@@ -1562,6 +1583,7 @@ input {
   justify-content: center;
   height: 20vh;
   background: #111115;
+  overflow-x: hidden;
 }
 
 #page5 ul {
@@ -1684,6 +1706,7 @@ footer {
 }
 /* heading */
 .footer-section h3 {
+  overflow-x: hidden;
   font-size: 1.2em;
   margin-bottom: 10px;
   color: blue; /* Initial color */
@@ -1853,9 +1876,11 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #444141;
+    overflow-x: hidden;
   }
 
   .footer-section {
+    margin: 10px auto;
     width: 100%;
     margin-bottom: 15px;
     justify-content: center;
