@@ -302,3 +302,12 @@ function footerAnimation() {
   });
 }
 footerAnimation();
+
+var bgimg = ["./content/alienware.png","./content/support.png"];
+var right = document.querySelector("#hero-slide #r");
+var heroImg = document.querySelector("#hero-img");
+right.addEventListener("click",function(){
+  console.log("hii");
+  console.dir(heroImg.style.backgroundImage);
+  heroImg.style.backgroundImage = "./content/support.png";
+})
