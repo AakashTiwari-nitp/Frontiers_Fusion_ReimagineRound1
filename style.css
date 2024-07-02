@@ -1014,8 +1014,9 @@ input[type="radio"] {
 }
 
 /* Text glow effect */
-#page3:hover {
-  text-shadow: 0 0 1px #1F51FF, 0 0 10px #1F51FF, 0 0 1px #1F51FF; /* Yellow glow effect */
+/* Text glow effect */
+#page3 #glowhead  {
+  text-shadow: 0 0 30px #1F51FF, 0 0 30px #1F51FF, 0 0 30px #1F51FF; /* Yellow glow effect */
 }
 
 /* Media query for screens smaller than 760px */
