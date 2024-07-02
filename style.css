@@ -845,7 +845,8 @@ input[type="radio"] {
 }
 #s-1:checked ~ .js-slider .js-slider_item.img-1,
 #s-2:checked ~ .js-slider .js-slider_item.img-2,
-#s-3:checked ~ .js-slider .js-slider_item.img-3 {
+#s-3:checked ~ .js-slider .js-slider_item.img-3,
+#s-4:checked ~ .js-slider .js-slider_item.img-4 {
   opacity: 1;
   visibility: visible;
   transform-origin: left center;
@@ -1019,9 +1020,11 @@ input[type="radio"] {
 }
 #s-1:checked ~ .js-slider .js-slider_nav .s-nav-1,
 #s-2:checked ~ .js-slider .js-slider_nav .s-nav-2,
-#s-3:checked ~ .js-slider .js-slider_nav .s-nav-3 {
+#s-3:checked ~ .js-slider .js-slider_nav .s-nav-3,
+#s-4:checked ~ .js-slider .js-slider_nav .s-nav-4 {
   display: block;
 }
+
 /************************************
   ********  3 dots indicator    *****
   ************************************/
@@ -1059,11 +1062,13 @@ input[type="radio"] {
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-#s-1:checked ~ .js-slider .js-slider_indicator .indi-1:after,
-#s-2:checked ~ .js-slider .js-slider_indicator .indi-2:after,
-#s-3:checked ~ .js-slider .js-slider_indicator .indi-3:after {
-  transform: translate3d(-50%, -50%, 0) scale(2.5);
+#s-1:checked ~ .js-slider .js-slider_nav .s-nav-1,
+#s-2:checked ~ .js-slider .js-slider_nav .s-nav-2,
+#s-3:checked ~ .js-slider .js-slider_nav .s-nav-3,
+#s-4:checked ~ .js-slider .js-slider_nav .s-nav-4 {
+  display: block;
 }
+
 /* heading */
 /* Base styles for h2 on page 3 */
 #page3 h2 {

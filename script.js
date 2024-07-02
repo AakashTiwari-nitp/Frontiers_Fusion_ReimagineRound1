@@ -189,24 +189,13 @@ document.addEventListener("DOMContentLoaded", function () {
   let autoSlide = setInterval(nextSlide, slideInterval);
 
   // Pause auto sliding when mouse is over the slider
-  document
-    .querySelector(".js-slider")
-    .addEventListener("mouseenter", function () {
-      clearInterval(autoSlide);
-    });
+  document.querySelector(".js-slider").addEventListener("mouseenter", function () {
+    clearInterval(autoSlide);
+  });
 
   // Resume auto sliding when mouse leaves the slider
-  document
-    .querySelector(".js-slider")
-    .addEventListener("mouseleave", function () {
-      autoSlide = setInterval(nextSlide, slideInterval);
-    });
-
-  // Add click event to indicators
-  indicators.forEach((indicator, index) => {
-    indicator.addEventListener("click", function () {
-      goToSlide(index);
-    });
+  document.querySelector(".js-slider").addEventListener("mouseleave", function () {
+    autoSlide = setInterval(nextSlide, slideInterval);
   });
 
   // Add keyboard navigation
@@ -222,6 +211,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
 
 // Video Animation
 function videoAnimation() {
