@@ -1198,6 +1198,7 @@ input[type="radio"] {
   }
   .js-slider_nav {
     padding-top: 40px;
+    width: 102%;
   }
   .js-slider_nav_item {
     width: 1rem;
@@ -1260,8 +1261,9 @@ input[type="radio"] {
     padding: 10px 20px;
     font-size: 14px;
   }
-  .js-slider_nav {
+ .js-slider_nav {
     padding-top: 60px;
+    width: 103%;
   }
   .js-slider_nav_item {
     width: 3rem;
