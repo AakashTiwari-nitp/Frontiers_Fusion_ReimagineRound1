@@ -15,7 +15,10 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
     <!-- Locomotive CSS CDN -->
     <link
       rel="stylesheet"
@@ -71,52 +74,80 @@
           </div>
         </div>
         <div id="navbar">
-          <nav class="menu">
-            <ol>
-              <li class="menu-item">
-                <a href="#0">Artificial Intelligence</a>
-              </li>
-              <li class="menu-item">
-                <a href="#0">Products<i class="ri-arrow-drop-down-line"></i></a>
-                <ol class="sub-menu">
-                  <li class="menu-item"><a href="#0">Laptops</a></li>
-                  <li class="menu-item"><a href="#0">Gaming</a></li>
-                  <li class="menu-item"><a href="#0">Workstations</a></li>
-                </ol>
-              </li>
-              <li class="menu-item">
-                <a href="#0"
-                  >Solutions<i class="ri-arrow-drop-down-line"></i
-                ></a>
-                <ol class="sub-menu">
-                  <li class="menu-item"><a href="#0">Cloud solutions</a></li>
-                  <li class="menu-item"><a href="#0">Edge solutions</a></li>
-                  <li class="menu-item"><a href="#0">View all solutions</a></li>
-                </ol>
-              </li>
-              <li class="menu-item">
-                <a href="#0">Services<i class="ri-arrow-drop-down-line"></i></a>
-                <ol class="sub-menu">
-                  <li class="menu-item"><a href="#0">View all services</a></li>
-                  <li class="menu-item">
-                    <a href="#0">Proffesional services</a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="#0">Technology and Tools</a>
-                  </li>
-                </ol>
-              </li>
-              <li class="menu-item">
-                <a href="#0">Supports<i class="ri-arrow-drop-down-line"></i></a>
-                <ol class="sub-menu">
-                  <li class="menu-item"><a href="#0">Support Home</a></li>
-                  <li class="menu-item"><a href="#0">Support Library</a></li>
-                  <li class="menu-item"><a href="#0">Support Videos</a></li>
-                </ol>
-              </li>
-              <li class="menu-item"><a href="#0">Find a store</a></li>
-            </ol>
-          </nav>
+          <section class="navigation">
+            <nav>
+              <div class="nav-mobile">
+                <a id="nav-toggle" href="#!"><span></span></a>
+              </div>
+              <ul class="nav-list">
+                <li id="navitem">
+                  <a href="#!">Artificial Intelligence</a>
+                </li>
+                <li id="navitem">
+                  <a href="#!">Products</a>
+                  <ul class="nav-dropdown">
+                    <li>
+                      <a href="#!">Laptops</a>
+                    </li>
+                    <li>
+                      <a href="#!">Gaming</a>
+                    </li>
+                    <li>
+                      <a href="#!">Workstations</a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="navitem">
+                  <a href="#!">Solutions</a>
+                  <ul class="nav-dropdown">
+                    <li>
+                      <a href="#!">Cloud solutions</a>
+                    </li>
+                    <li>
+                      <a href="#!">Edge solutions</a>
+                    </li>
+                    <li>
+                      <a href="#!">View all solutions</a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="navitem">
+                  <a href="#!">Services</a>
+                  <ul class="nav-dropdown">
+                    <li>
+                      <a href="#!">View all services</a>
+                    </li>
+                    <li>
+                      <a href="#!">Proffesional services</a>
+                    </li>
+                    <li>
+                      <a href="#!">Technology and Tools</a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="navitem">
+                  <a href="#!">Support</a>
+                  <ul class="nav-dropdown">
+                    <li>
+                      <a href="#!">Support Home</a>
+                    </li>
+                    <li>
+                      <a href="#!">Support Library</a>
+                    </li>
+                    <li>
+                      <a href="#!">Support Videos</a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="navitem">
+                  <a href="#!">Deals</a>
+                </li>
+                <li id="navitem">
+                  <a href="#!">Find a Store</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
         </div>
         <div id="nav3">
           <div id="search2">
@@ -305,13 +336,16 @@
             </div>
             <figcaption class="wo-caption">
               <h4 class="wo-h3">
-                <div class="c-label">Alienware Tri-Mode Wireless Gaming Keyboard - AW920K</div>
+                <div class="c-label">
+                  Alienware Tri-Mode Wireless Gaming Keyboard - AW920K
+                </div>
                 <br />
-                <br class="view-sm mb-s" />Type with precision and comfort using Dell's ergonomic keyboards.
+                <br class="view-sm mb-s" />Type with precision and comfort.
               </h4>
               <ul class="wo-credit">
                 <li id="statuslap">
-                  Up to 110 hours of battery life and flexible tri-mode connectivity and Magnetic Snap Charging.
+                  Up to 110 hours of battery life and flexible tri-mode
+                  connectivity and Magnetic Snap Charging.
                 </li>
                 <li id="statuslap">
                   <button class="buttonslider">Buy</button>
@@ -528,6 +562,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
