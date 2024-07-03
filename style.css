@@ -647,7 +647,9 @@ a {
   font-size: 3rem;
   font-family: "Helvetica Neue";
   font-weight: 300;
-  color: #7fd015;
+    background: -webkit-linear-gradient(#0b4a8d, #e6e6e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   /* mix-blend-mode: difference; */
 }
 #over1 h2 {
@@ -1141,7 +1143,7 @@ input[type="radio"] {
   text-align: center;
   padding: 20px;
   background-color: #111;
-  color: #fff; /* Initial background color */
+  color: #111; /* Initial background color */
   transition: background-color 0.3s ease; /* Smooth transition for background color */
   position: relative; /* Needed for text glow effect */
   z-index: 1; /* Ensure text is above pseudo-element */
