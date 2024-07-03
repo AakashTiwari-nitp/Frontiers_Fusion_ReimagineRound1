@@ -1544,7 +1544,7 @@ input {
   display: flex;
   flex-direction: column;
   position: relative;
-  color: #0412ab;
+ color: #525bb8;
   font-size: 26px;
 }
 
@@ -1556,7 +1556,7 @@ input {
   bottom: -10px;
   width: 25px;
   height: 4px;
-  background: #3905a1;
+   background: #5e38aa;
 }
 
 .app-contact {
