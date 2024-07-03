@@ -329,9 +329,9 @@ function heroSliderAnimation() {
       "./content/dellOffer.png",
     ];
     const overH1text = [
-      "The Ultimate <br> Gaming Powerhouse",
-      "Dell Support",
-      "Dell Offers",
+      "Gaming Dominance <br> with Alienware",
+      "Our 24X7 <br> Helpdesk",
+      "Unbeatable Dell Prices",
     ];
     let currentSlide = 0;
     const heroImg = document.getElementById("hero-img");
