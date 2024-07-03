@@ -1139,7 +1139,7 @@ input[type="radio"] {
   text-align: center;
   padding: 20px;
   background-color: #111;
-  color: #fff; /* Initial background color */
+  color: #111; /* Initial background color */
   transition: background-color 0.3s ease; /* Smooth transition for background color */
   position: relative; /* Needed for text glow effect */
   z-index: 1; /* Ensure text is above pseudo-element */
