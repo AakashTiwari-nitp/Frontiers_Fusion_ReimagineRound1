@@ -202,13 +202,6 @@ document.addEventListener("DOMContentLoaded", function () {
       autoSlide = setInterval(nextSlide, slideInterval);
     });
 
-  // Add click event to indicators
-  indicators.forEach((indicator, index) => {
-    indicator.addEventListener("click", function () {
-      goToSlide(index);
-    });
-  });
-
   // Add keyboard navigation
   document.addEventListener("keydown", function (event) {
     if (event.key === "ArrowRight") {
@@ -311,7 +304,11 @@ function heroSliderAnimation() {
       "./content/support.png",
       "./content/dellOffer.png",
     ];
-    const overH1text = ["The Ultimate <br> Gaming Powerhouse","Dell Support","Dell Offers"];
+    const overH1text = [
+      "The Ultimate <br> Gaming Powerhouse",
+      "Dell Support",
+      "Dell Offers",
+    ];
     let currentSlide = 0;
     const heroImg = document.getElementById("hero-img");
     const leftArrow = document.getElementById("l");
@@ -321,7 +318,7 @@ function heroSliderAnimation() {
     function updateSlide() {
       heroImg.style.backgroundImage = `url(${slides[currentSlide]})`;
       slideNumber.textContent = `0${currentSlide + 1}`;
-      overH1.innerHTML=`${overH1text[currentSlide]}`;
+      overH1.innerHTML = `${overH1text[currentSlide]}`;
     }
 
     leftArrow.addEventListener("click", function () {
