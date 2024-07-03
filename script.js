@@ -326,9 +326,9 @@ footerAnimation();
 function heroSliderAnimation() {
   document.addEventListener("DOMContentLoaded", function () {
     const slides = [
-      "./content/alienware.png",
-      "./content/support.png",
-      "./content/dellOffer.png",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719988740/Aakash%20Personal%20Web/Alienware_xoxtt3.png",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719988752/Aakash%20Personal%20Web/support_klzvwh.png",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720017450/Aakash%20Personal%20Web/dellOffer_pmqdtp.png",
     ];
     const overH1text = [
       "Gaming Dominance <br> with Alienware",
