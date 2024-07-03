@@ -596,7 +596,7 @@ a {
   transform: translate(-50%, -50%);
   width: 75%;
   height: 90%;
-  background-image: url("./content/Alienware.png");
+  /* background-image: url("./content/Alienware.png"); */
   background-size: cover;
 }
 #overlay {
