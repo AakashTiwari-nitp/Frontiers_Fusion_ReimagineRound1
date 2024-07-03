@@ -103,7 +103,7 @@ body {
   background: #262626;
 }
 
-#navitem{
+#navitem {
   margin: 0 15px;
 }
 nav {
@@ -119,7 +119,6 @@ nav ul {
 nav ul li {
   float: left;
   position: relative;
-  
 }
 nav ul li a,
 nav ul li a:visited {
@@ -133,7 +132,7 @@ nav ul li a:visited {
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
-  background: #2581DC;
+  background: #2581dc;
   color: #ffffff;
 }
 nav ul li a:not(:only-child):after,
@@ -228,7 +227,8 @@ nav ul li ul li a {
 #nav-toggle.active span {
   background-color: transparent;
 }
-#nav-toggle.active span:before, #nav-toggle.active span:after {
+#nav-toggle.active span:before,
+#nav-toggle.active span:after {
   top: 0;
 }
 #nav-toggle.active span:before {
@@ -237,7 +237,6 @@ nav ul li ul li a {
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
 }
-
 
 /* @media screen and (max-width: 1000px) {
   #navbar{
@@ -390,7 +389,7 @@ a {
   /* border: 2px solid #a9a9a9; */
   border: none;
 }
-#menuhover{
+#menuhover {
   color: #fff;
   background-color: #363535a8;
   padding: 5px 10px 20px 20px;
@@ -647,8 +646,7 @@ a {
   font-size: 3rem;
   font-family: "Helvetica Neue";
   font-weight: 300;
-    background: -webkit-linear-gradient(#0b4a8d, #e6e6e9);
-  -webkit-background-clip: text;
+  background: -webkit-linear-gradient(#0b4a8d, #e6e6e9);
   -webkit-text-fill-color: transparent;
   /* mix-blend-mode: difference; */
 }
@@ -1621,7 +1619,7 @@ input {
   bottom: -10px;
   width: 25px;
   height: 4px;
-   background: #cf9818;
+  background: #cf9818;
   font-family: Montserrat;
 }
 
@@ -1868,7 +1866,7 @@ footer {
   overflow-x: hidden;
   font-size: 1.2em;
   margin-bottom: 10px;
-  color: rgb(141, 141, 241);; /* Initial color */
+  color: rgb(141, 141, 241); /* Initial color */
   /* animation: moveText 10s linear infinite, changeColor 2s linear infinite alternate; */
 }
 
