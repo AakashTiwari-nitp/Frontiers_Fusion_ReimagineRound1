@@ -1802,7 +1802,7 @@ footer {
   overflow-x: hidden;
   font-size: 1.2em;
   margin-bottom: 10px;
-  color: blue; /* Initial color */
+  color: rgb(141, 141, 241);; /* Initial color */
   /* animation: moveText 10s linear infinite, changeColor 2s linear infinite alternate; */
 }
 
@@ -1842,7 +1842,7 @@ footer {
 }
 
 .footer-section ul li a:hover {
-  color: rgb(5, 57, 129); /* Change text color on hover */
+  color: rgb(140, 142, 145); /* Change text color on hover */
   background-color: rgb(40, 40, 47); /* Background color on hover */
   border-radius: 5px; /* Rounded corners */
   padding: 10px 15px; /* Adjust padding for better look */
