@@ -356,13 +356,14 @@ a {
 }
 
 #nright h3 {
-  color: #636363;
+  color: #111;
   font-size: 17px;
 }
 
 #nright h3 i {
   font-size: 20px;
   margin: 1px;
+  color: #111;
 }
 #nav3 {
   background-color: #fff;
@@ -646,10 +647,11 @@ a {
   font-size: 3rem;
   font-family: "Helvetica Neue";
   font-weight: 300;
+  color: #7fd015;
   /* mix-blend-mode: difference; */
 }
 #over1 h2 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 2vw 2.2vw;
   /* background-color: blue; */
   border-radius: 50%;
@@ -663,7 +665,7 @@ a {
   /* background-color: yellow; */
 }
 #over2 h2 {
-  font-size: 1.3vw;
+  font-size: 1.75rem;
   font-weight: 500;
 }
 @media screen and (max-width: 700px) {
