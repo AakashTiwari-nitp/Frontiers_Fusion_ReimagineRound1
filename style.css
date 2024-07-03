@@ -1605,7 +1605,7 @@ input {
   display: flex;
   flex-direction: column;
   position: relative;
- color: #525bb8;
+  color: #cf9818;
   font-size: 26px;
 }
 
@@ -1664,7 +1664,7 @@ input {
 #page5 .app-form-button {
   background: none;
   border: none;
-  color: #0e038c;
+  color: #867fbd;
   font-size: 14px;
   cursor: pointer;
   outline: none;
