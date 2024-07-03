@@ -647,6 +647,8 @@ a {
   font-family: "Helvetica Neue";
   font-weight: 300;
   background: -webkit-linear-gradient(#0b4a8d, #e6e6e9);
+  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   /* mix-blend-mode: difference; */
 }
